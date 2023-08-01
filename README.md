@@ -38,7 +38,6 @@ mv test2 directory_without_file
 vim test1/test1.txt > test1
 ```
 
--    print the text from the test1/test1.txt file.
 
 
 -    Insert 'test2' into the end of test1/test1.txt file.
