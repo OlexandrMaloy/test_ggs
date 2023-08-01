@@ -98,7 +98,7 @@ cat test.txt | awk '{print $1}' | sort | uniq | wc -l
 
 -  IP address with most requests.
 ```console
-cat logs.txt | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 1
+cat test.txt | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 1
 ```
 
 -  Top 3 IP addresses by amount of POST requests.
